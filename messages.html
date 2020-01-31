@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nations Match</title>
+    <link rel="stylesheet" type="text/css" href="CSS/homestyle.css">
+    <link rel="stylesheet" type="text/css" href="CSS/messengerstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+          integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+</head>
+<body>
+<header>
+    <div class="row">
+        <div class="logo">
+            <a href="http://localhost:63342/nations-match-web/home.html"><img src="css/img/loggin_bg.png" width="100" height="100"></a>
+
+        </div>
+        <ul class="main-nav">
+            <li><a href="http://localhost:63342/nations-match-web/home.html">HOME</a> </li>
+            <li class="active"><a href="http://localhost:63342/nations-match-web/messages.html">MESSAGES</a> </li>
+            <li><a href="http://localhost:63342/nations-match-web/aboutUs.html">ABOUT US</a> </li>
+            <li><a onclick="logout.setIdToZero()">LOGOUT</a></li>
+        </ul>
+    </div>
+</header>
+    <div class="chatbox">
+        <div class="chatlogs">
+            <!--<div class="chat friend">
+                <div class="user-photo"><img src="CSS/img/loggin_bg.png"></div>
+                <p class="chat-message">What's up brother..</p>
+            </div>
+            <div class="chat self">
+                <div class="user-photo"><img src="CSS/img/HomeBg2.jpg"></div>
+                <p class="chat-message">brother..</p>
+            </div>
+            <div class="chat friend">
+                <div class="user-photo"><img src="CSS/img/HomeBg2.jpg"></div>
+                <p class="chat-message">What's up brother..</p>
+            </div>
+            <div class="chat self">
+                <div class="user-photo"><img src="CSS/img/HomeBg2.jpg"></div>
+                <p class="chat-message">brother..</p>
+            </div>
+            <div class="chat friend">
+                <div class="user-photo"><img src="CSS/img/HomeBg2.jpg"></div>
+                <p class="chat-message">What's up brother..</p>
+            </div>
+            <div class="chat self">
+                <div class="user-photo"><img src="CSS/img/HomeBg2.jpg"></div>
+                <p class="chat-message">brother..</p>
+            </div>-->
+            <div class="chat friend">
+                <div class="user-photo"><img src="CSS/img/HomeBg2.jpg"></div>
+                <p class="chat-message">What's up brother..</p>
+            </div>
+            <div class="chat self">
+                <div class="user-photo"><img src="CSS/img/HomeBg2.jpg"></div>
+                <p class="chat-message">brotherasssss ssssssssssssssss sssssssssssd dddddddd dddddddd dddddddddddd..</p>
+            </div>
+        </div>
+        <div class="chat-form">
+            <!--<textarea placeholder="Send a message..." id="textUser"></textarea>-->
+            <input type="text" id="textUser" placeholder="Send a message...">
+            <button onclick="messenger.createText()"><i class="fas fa-paper-plane" style="font-size: 2.0em"></i>
+            </button>
+        </div>
+    </div>
+<script src="JS/lib/jquery-3.4.1.min.js"></script>
+<script src="JS/isUserLogedOut.js"></script>
+<script src="JS/logout.js"></script>
+<script src="JS/messenger.js"></script>
+</body>
+</html>

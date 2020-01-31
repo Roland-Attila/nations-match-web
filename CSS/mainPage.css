@@ -1,0 +1,60 @@
+.info{
+    width: 80%;
+    background: #000000;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    top: 100px;
+    left: 10%;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+table{
+    width: 100%;
+}
+
+#Personal td {
+    padding: 10px;
+}
+
+#Personal th {
+    padding: 20px;
+}
+
+#Personal{
+    text-align: start;
+}
+
+#Personal th {
+    padding-top: 2px;
+    padding-bottom: 1px;
+    text-align: center;
+    color: white;
+}
+
+#User td {
+    padding: 10px;
+}
+
+#User th {
+    padding: 25px;
+}
+
+#User {
+    text-align: start;
+}
+
+#User th {
+    padding-top: 2px;
+    padding-bottom: 1px;
+    text-align: center;
+    color: white;
+}
+#User tr{
+    border-bottom: 1px solid black;
+}
+
+.line{
+    height: 2px;
+    background-color: lightgrey;
+}

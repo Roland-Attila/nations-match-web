@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nations Match</title>
+    <link rel="stylesheet" type="text/css" href="CSS/loginstyle.css">
+    <link rel="stylesheet" type="text/css" href="CSS/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+          integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+</head>
+<body>
+<div class="earth"></div>
+<div class="loginbox fadeInLeft animated">
+        <i class="fas fa-users" style="font-size: 3.0em"></i>
+    <h2>Login</h2>
+    <form>
+        <p>Username</p>
+        <input type="text" name="" placeholder="Enter Email" id="username">
+        <p>Password</p>
+        <input type="password" name="" placeholder="Enter Password" id="password">
+        <input type="button" onclick="loginPage.getUsers()">
+        <a href="#" id="create">Don't have an account?</a>
+    </form>
+</div>
+<div class="popup">
+    <div class="popup-content"><center>
+        <i class="far fa-times-circle" style="font-size: 2.0em" id="close"></i>
+        <i class="fas fa-users" style="font-size: 3.0em" id="account"></i>
+        <input type="text" placeholder="image URL" id="imageUrl">
+        <input type="text" placeholder="First Name" id="firstName">
+        <input type="text" placeholder="Last Name" id="lastName">
+        <input type="text" placeholder="Age" id="age">
+        <input type="text" placeholder="Description" id="description">
+        <input type="text" placeholder="Nationality" id="nationality">
+        <input type="text" placeholder="eMail" id="email">
+        <input type="password" placeholder="Password" id="passwordField">
+        <a href="#" class="button" onclick="loginPage.createUser()">Create Account</a>
+    </center>
+    </div>
+</div>
+<script src="JS/lib/jquery-3.4.1.min.js"></script>
+<script src="JS/loginPage.js"></script>
+</body>
+</html>
